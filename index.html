@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgina Watercress - شامبو صبغة الشعر الطبيعي</title>
+    <style>
+        :root { --primary-color: #2e7d32; --secondary-color: #fdd835; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+        header { background: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .logo { max-width: 150px; }
+        .hero { background: #fff; padding: 20px; text-align: center; }
+        .hero img { max-width: 100%; border-radius: 10px; }
+        .cta-button { background: #e67e22; color: white; padding: 15px 30px; text-decoration: none; font-size: 1.2rem; border-radius: 50px; display: inline-block; margin-top: 20px; animation: pulse 2s infinite; font-weight: bold; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; padding: 20px; background: white; }
+        .feature-item { text-align: center; padding: 10px; border: 1px solid #eee; border-radius: 10px; }
+        .order-form { background: #2e7d32; color: white; padding: 30px 20px; text-align: center; }
+        input, select { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: none; }
+        .submit-btn { background: #fdd835; color: #333; font-weight: bold; cursor: pointer; border: none; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo-drop-shop.png" alt="Drop Shop Logo" class="logo">
+</header>
+
+<section class="hero">
+    <h1>تخلص من الشيب في 5 دقائق فقط! 🌿</h1>
+    <p>شامبو GEORGINA الطبيعي بجرجير الماء - صبغة فورية بدون صبغ الجلد</p>
+    <img src="product-main-image.jpg" alt="Georgina Watercress Shampoo">
+    <br>
+    <a href="#order" class="cta-button">اطلبه الآن - الدفع عند الاستلام</a>
+</section>
+
+<section class="features">
+    <div class="feature-item">✅ تغطية 100% للشيب</div>
+    <div class="feature-item">🚫 لا يصبغ البشرة</div>
+    <div class="feature-item">🍃 مكونات طبيعية</div>
+    <div class="feature-item">⏱️ نتيجة في 5 دقائق</div>
+</section>
+
+<section id="order" class="order-form">
+    <h2>أدخل معلوماتك للطلب</h2>
+    <form>
+        <input type="text" placeholder="الاسم الكامل" required>
+        <input type="tel" placeholder="رقم الهاتف" required>
+        <select>
+            <option value="">اختر المدينة</option>
+            <option value="casablanca">الدار البيضاء</option>
+            <option value="rabat">الرباط</option>
+            <!-- أضف باقي المدن -->
+        </select>
+        <button type="submit" class="submit-btn">تأكيد الطلب</button>
+    </form>
+</section>
+
+<footer style="text-align: center; padding: 20px; font-size: 0.8rem;">
+    &copy; 2026 Drop Shop - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
